@@ -12,5 +12,14 @@ func main() {
 	// byte - alias for uint8
 	// rune - alias for int32
 	// float32 float64
-	// complex64 complex 128
+	// complex64 complex128
+
+	// Using var keyword
+	var name = "Mohamed"
+	var age = 24
+
+	// show name and age in terminal
+	fmt.Println(name, age)
+	// get type of variable
+	
 }
