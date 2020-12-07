@@ -16,7 +16,7 @@ func main() {
 	// complex64 complex128
 
 	// Using var keyword
-	var name = "Mohamed"
+	var name  = "Mohamed"
 	var age = 24
 	var size float32 = 2.3
 	
@@ -37,5 +37,4 @@ func main() {
 	fmt.Printf("%T\n", age)
 	fmt.Printf("%T\n", isCool)
 	fmt.Printf("%T\n", size)
-
 }
