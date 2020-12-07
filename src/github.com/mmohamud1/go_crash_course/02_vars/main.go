@@ -18,8 +18,11 @@ func main() {
 	var name = "Mohamed"
 	var age = 24
 
+	// Using const 
+	var isCool = true
+
 	// show name and age in terminal
-	fmt.Println(name, age)
-	// get type of variable
-	
+	fmt.Println(name, age, isCool)
+	// get type of variable e.g string
+	fmt.Printf("%T\n", name)
 }
