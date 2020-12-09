@@ -21,5 +21,7 @@ func main() {
 	teamSlice := [] string{"Liverpool", "Arsenal", "Chelsea"}
 
 	fmt.Println(teamSlice)
+	fmt.Println(len(teamSlice))
+	fmt.Println(teamSlice[1:2])
 
 }
