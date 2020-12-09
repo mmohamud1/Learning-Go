@@ -17,4 +17,9 @@ func main() {
 	fmt.Println(fruitArr[1])
 	fmt.Println(teamArr)
 
+	// Slice
+	teamSlice := [] string{"Liverpool", "Arsenal", "Chelsea"}
+
+	fmt.Println(teamSlice)
+
 }
