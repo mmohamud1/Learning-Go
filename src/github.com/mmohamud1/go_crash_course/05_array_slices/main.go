@@ -11,4 +11,6 @@ func main() {
 	fruitArr[1] = "Orange"
 
 	fmt.Println(fruitArr)
+	fmt.Println(fruitArr[1])
+
 }
