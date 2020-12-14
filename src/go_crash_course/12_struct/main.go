@@ -1,0 +1,25 @@
+package main
+
+import "fmt"
+
+// Define Person struct
+type Person struct {
+	firstName string
+	lastName string
+	city string
+	gender string 
+	age int
+}
+
+func main() {
+	// init person using struct
+	person1 := Person{firstName: "Mohamed", lastName: "Mohamud", city: "London", gender: "M", age: 24}
+	// Aletrnative
+	person2 := Person{"David", "Beckham", "Miami", "M", 45}
+
+	fmt.Println(person1, person2)
+
+	// Get single field
+	fmt.Println(person1.firstName)
+	fmt.Println(person2.age)
+}
