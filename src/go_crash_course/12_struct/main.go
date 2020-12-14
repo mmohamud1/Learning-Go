@@ -1,6 +1,7 @@
 package main
 
-import "fmt"
+import ("fmt"
+		"strconv")
 
 // Define Person struct
 type Person struct {
@@ -9,6 +10,11 @@ type Person struct {
 	city string
 	gender string 
 	age int
+}
+
+// Greeting method {value reciever}
+func (p Person) greet() string {
+	return "Hello my name is " + p.firstName + " " + p.lastName + " and I live in " + p.city + " and I am " + strconv.Itoa(p.age) + " years old." 
 }
 
 func main() {
@@ -22,4 +28,6 @@ func main() {
 	// Get single field
 	fmt.Println(person1.firstName)
 	fmt.Println(person2.age)
+
+	fmt.Println(person2.greet())
 }
