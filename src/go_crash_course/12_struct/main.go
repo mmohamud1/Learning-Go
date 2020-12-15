@@ -10,7 +10,6 @@ type Person struct {
 	city string
 	gender string 
 	age int
-
 }
 
 // Greeting method {value reciever}
