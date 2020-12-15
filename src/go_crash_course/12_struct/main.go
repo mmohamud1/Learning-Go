@@ -22,6 +22,16 @@ func (p *Person) hasBirthday() {
 	p.age++
 }
 
+// getMarried (pointer reciever)
+func (p *Person) getMarried(spouceLastName string) {
+	if p.gender == "f" {
+		return
+	} else {
+		p.lastName = spouceLastName
+	}
+
+}
+
 func main() {
 	// init person using struct
 	person1 := Person{firstName: "Mohamed", lastName: "Mohamud", city: "London", gender: "M", age: 24}
@@ -36,5 +46,7 @@ func main() {
 
 
 	person2.hasBirthday()
+	person1.getMarried("Williams")
+
 	fmt.Println(person2.greet())
 }
