@@ -35,7 +35,6 @@ func main() {
 	circle := Circle{x: 0, y: 0, radius: 5}
 	rectangle := Rectangle{width: 10, height: 5}
 
-	fmt.Printf("Circle Area: %f\n", circle)
-	fmt.Printf("Rectangle Area: %f\n", rectangle)
-
+	fmt.Printf("Circle Area: %f\n", getArea(circle))
+	fmt.Printf("Rectangle Area: %f\n", getArea(rectangle))
 }
