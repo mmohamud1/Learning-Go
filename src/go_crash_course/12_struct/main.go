@@ -45,8 +45,8 @@ func main() {
 	fmt.Println(person2.age)
 
 
-	person2.hasBirthday()
+	person1.hasBirthday()
 	person1.getMarried("Williams")
 
-	fmt.Println(person2.greet())
+	fmt.Println(person1.greet())
 }
